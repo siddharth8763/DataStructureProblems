@@ -1,1 +1,1 @@
-# DataStructureProblems
+# Java-Algorithms
