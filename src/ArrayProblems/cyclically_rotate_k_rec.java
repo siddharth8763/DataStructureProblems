@@ -4,7 +4,7 @@ public class cyclically_rotate_k_rec {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {1,2,3,8,9,10};
+		int arr[] = {1,2,2,4,5,8,9,10};
 		System.out.println("original");
         printArray(arr);
         System.out.println("op array");
@@ -14,27 +14,24 @@ public class cyclically_rotate_k_rec {
 	
 	static void cyclically_rotate_k_rec_1(int arr[],int k) {
 		
-		int len=arr.length;
+		int len=arr.length-1;
+		
 		k=k % len;
 		
-		rev(arr,0,len-1);
+		rev(arr,0,len);
 		rev(arr,0,k-1);
-		rev(arr,k,len-1);
-		//rev(arr,len-k,len-1);
-		
+		rev(arr,k,len);
 		
 	}
 	
 	static void rev(int arr[],int st,int en) {
 		int temp;
-		st=0;
-		en=arr.length-1;
 		while(st<en) {
-		temp=arr[st];
-		arr[st]=arr[en];
-		arr[en]=temp;
-		st++;
-		en--;
+			temp=arr[st];
+			arr[st]=arr[en];
+			arr[en]=temp;
+			st++;en--;
+		
 		}
 	}
 	
