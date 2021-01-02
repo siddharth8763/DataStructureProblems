@@ -12,12 +12,12 @@ public class MyStack {
 	 ArrayList<Integer> al=new ArrayList<>();
 	    
 	 
-	 void push(int x){
+	 public void push(int x){
 	        al.add(x);
 	    }
 	    
 	    // modifies AL
-	    int pop(){
+	    public int pop(){
 	        
 	    	int res=al.get(al.size()-1);
 	        al.remove(al.size()-1);
@@ -25,16 +25,16 @@ public class MyStack {
 	    }
 	    
 	    // does not modify AL
-	    int peek(){
+	    public int peek(){
 	        return al.get(al.size()-1);
 	    }
 	    
 	    
-	    int size(){
+	    public int size(){
 	        return al.size();
 	    }
 	    
-	    boolean isEmpty(){
+	    public boolean isEmpty(){
 	        return al.isEmpty();
 	    }
 	    
