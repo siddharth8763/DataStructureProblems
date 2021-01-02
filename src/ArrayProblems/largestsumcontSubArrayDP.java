@@ -8,9 +8,17 @@ public class largestsumcontSubArrayDP {
 		int arr[] = {-1,2,3,4,4,6,7,8};
         System.out.println("Original");
 		printArray(arr);
+		System.out.println("Largest sum sub array");
+		System.out.println(largestsumcontSubArrayDP(arr));
 		
 		
 	}
+	/*
+	 * This approach is based on the kaden's algorithm
+	 * 
+	 * Time Complexity O(n) 
+	 * Space Complexity O(1)
+	 */
 	
 	static int largestsumcontSubArrayDP(int arr[]) {
 		int max_sum=arr[0];
