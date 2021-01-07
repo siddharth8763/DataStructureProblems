@@ -17,7 +17,7 @@ public class twostackinAarray {
 		// Method to push an element x to stack1
 		
 		// Time Complexity O(1) Since Constant Work
-		// Space Complexity O(N) Efficiently Using thr array
+		// Space Complexity O(N) Efficiently Using the array
 		void push1(int x) {
 			// There is at least one empty space for new element
 			if (top1 < top2 - 1) {
