@@ -1,4 +1,4 @@
-package BackTracking;
+package BackTrackingProblems;
 
 /*
  * Time Complexity O(2^(N^2)) since recurssion can run upper bound 2^(N^2)
