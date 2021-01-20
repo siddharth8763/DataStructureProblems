@@ -34,6 +34,10 @@ public class LevelOrderTraversal {
 			result.add(currentlevel);
 		}
 		return result;
+		
+		//if reverse level order traversal
+		//Collections.reverse(result);
+		//return result;
 	}
 
 	public static void main(String[] args) {
