@@ -2,6 +2,7 @@ package BinaryTree;
 
 public class Node {
 	int val;
+	int height;
 	Node left;
 	Node right;
 
