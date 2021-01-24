@@ -76,7 +76,6 @@ public class zigzaglevelordertraversal {
          */
 		System.out.println(zigzagLevelOrderTraversal(tree.root));
 
-
 	}
 
 }
