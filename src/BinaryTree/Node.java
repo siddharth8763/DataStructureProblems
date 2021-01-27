@@ -1,19 +1,19 @@
 package BinaryTree;
 
 public class Node {
-	int val;
-	int height;
-	Node left;
-	Node right;
+	public int val;
+	public int height;
+	public Node left;
+	public Node right;
 
-	Node() {
+	public Node() {
 	}
 
-	Node(int val) {
+	public Node(int val) {
 		this.val = val;
 	}
 
-	Node(int val, Node left, Node right) {
+	public Node(int val, Node left, Node right) {
 		this.val = val;
 		this.left = left;
 		this.right = right;
