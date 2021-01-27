@@ -1,15 +1,15 @@
 package BinaryTree;
 
 public class BinaryTree {
-	Node root; 
+	public Node root; 
 	  
     // Constructors 
-    BinaryTree(int key) 
+    public BinaryTree(int key) 
     { 
         root = new Node(key); 
     } 
   
-    BinaryTree() 
+    public BinaryTree() 
     { 
         root = null; 
     } 
